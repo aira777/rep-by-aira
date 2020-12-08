@@ -1,8 +1,21 @@
+@font-face {
+font-family: "bebas_neueregular";
+src: url("https://github.com/aira777/rep-by-aira.git/css/bebasneue1-webfont.eot");
+src: url("https://github.com/aira777/rep-by-aira.git/css/bebasneue1-webfont.woff") format("woff"),
+url("https://github.com/aira777/rep-by-aira.git/css/bebasneue1-webfont.otf") format("opentype"),
+url("https://github.com/aira777/rep-by-aira.git/css/bebasneue1-webfont.svg#filename") format("svg");
+}
 
-	h2{text-align: center; font-family:bebas neue; font-size:300px; font-weight: bold;}
-	p{text-align: center; font-family:bebas neue; font-size:55px;font-weight: bold;} 
-	h3{text-align: center; font-family:bebas neue; font-weight: bold;}
-	h1{text-align: center; font-family:bebas neue; font-size:72px; font-weight: bolder;}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue1-webfont.woff2') format('woff2'),
+         url('bebasneue1-webfont.woff') format('woff');
+}
+	
+	h2{text-align: center; font-family:bebas_neueregular; font-size:300px; font-weight: bold;}
+	p{text-align: center; font-family:bebas_neueregular; font-size:55px;font-weight: bold;} 
+	h3{text-align: center; font-family:bebas_neueregular; font-weight: bold;}
+	h1{text-align: center; font-family:bebas_neueregular; font-size:72px; font-weight: bolder;}
 	h4{text-align: center; font-family:keep calm; font-size:35px; font-weight: bold;}
 	div {text-align: center;}
 	video {position: fixed;
